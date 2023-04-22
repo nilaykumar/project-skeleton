@@ -1,0 +1,20 @@
+[project]
+name = "project_skeleton_nilay"
+version = "0.0.1"
+authors = [
+  { name="Nilay Kumar", email="nilaykumar@tutanota.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+  "pip-tools",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pre-commit",
+  "black",
+  "ruff"
+]
